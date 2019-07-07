@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// 根据房间号码获取一个房间
-	room := douyumsg.NewRoom("50377")
+	room := douyu.NewRoom("288016")
 	// 与服务器建立连接
 	go room.Run()
 	// 获取弹幕消息，传入chan缓冲区大小，返回一个chan
